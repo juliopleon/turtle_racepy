@@ -2,6 +2,8 @@ import turtle
 import time
 
 WIDTH, HEIGHT = 500, 500
+COLORS = ['red', 'green', 'blue', 'orange', 'yellow',
+          'black', 'purple', 'pink', 'brown', 'cyan']
 
 
 def get_number_of_racers():
@@ -28,12 +30,3 @@ def init_turtle():
 
 racers = get_number_of_racers()
 init_turtle()
-
-racer = turtle.Turtle()
-racer.speed(2)
-racer.forward(100)
-racer.left(90)
-racer.forward(100)
-racer.left(90)
-racer.backward(100)
-time.sleep(20)
