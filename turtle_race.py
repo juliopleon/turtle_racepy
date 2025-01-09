@@ -27,7 +27,13 @@ def create_turtles(colors):
     turtles = []
     for i, color in enumerate(colors):
         racer = turtle.Turtle()
-        racer.color()
+        racer.color(color)
+        racer.shape('turtle')
+        racer.left(90)
+        racer.penup()
+        # set pos
+        racer.pendown()
+        turtles.append(racer)
 
 
 def init_turtle():
