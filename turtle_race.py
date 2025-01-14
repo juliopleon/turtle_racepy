@@ -67,4 +67,5 @@ random.shuffle(COLORS)
 colors = COLORS[:racers]
 
 winner = race(colors)
-print(winner)
+print("The winner is the turtle with color:", winner)
+time.sleep(5)
